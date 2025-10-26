@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --color-primary: #2563eb;
+  --color-secondary: #f97316;
+  --color-bg: #f8fafc;
+  --color-text: #1e293b;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+}
