@@ -37,7 +37,7 @@ export const CategoriaCard: React.FC<CategoriaCardProps> = ({
       {/* Lista de bebidas */}
       <div
         className={`transition-all duration-300 ${
-          aberto ? "max-h-[500px] opacity-100 p-3" : "max-h-0 opacity-0 p-0"
+          aberto ? "max-h-[1000px] sm:max-h-[1200px] opacity-100 p-3" : "max-h-0 opacity-0 p-0"
         } overflow-hidden`}
       >
         <ul className="flex flex-col gap-3">
