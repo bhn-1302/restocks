@@ -63,6 +63,8 @@ export const estoqueData: Categoria[] = [
       { nome: "Pepsi Twist", quantidade: 0 },
       { nome: "Pepsi Twist Black", quantidade: 0 },
       { nome: "Kuat", quantidade: 0 },
+      { nome: "Sprite", quantidade: 0 },
+      { nome: "Sprite Zero", quantidade: 0 },
       { nome: "Itubaína", quantidade: 0 },
     ],
   },
