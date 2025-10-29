@@ -65,6 +65,7 @@ export const estoqueData: Categoria[] = [
       { nome: "Pepsi Twist Black", quantidade: 0 },
       { nome: "Sprite", quantidade: 0 },
       { nome: "Sprite Zero", quantidade: 0 },
+      { nome: "Schweppes Citrus", quantidade: 0 },
       { nome: "Itubaína", quantidade: 0 },
       { nome: "Kuat", quantidade: 0 },
     ],
@@ -112,6 +113,34 @@ export const estoqueData: Categoria[] = [
       { nome: "H2O", quantidade: 0 },
       { nome: "H2O Limoneto", quantidade: 0 },
       { nome: "Lemon Sprite", quantidade: 0 },
+    ],
+  },
+  {
+    categoria: "Suco Del Valle Lata",
+    bebidas: [
+      {nome: "Uva", quantidade: 0},
+      {nome: "Goiaba", quantidade: 0},
+      {nome: "Manga", quantidade: 0},
+    ]
+  },
+  {
+    categoria: "Chás Gelados",
+    bebidas: [
+      { nome: "Ice Tea Limão (Garrafa)", quantidade: 0 },
+      { nome: "Ice Tea Pêssego (Garrafa)", quantidade: 0 },
+      { nome: "Ice Matte Leão (Lata)", quantidade: 0 },
+    ],
+  },
+  {
+    categoria: "Energéticos",
+    bebidas: [
+      { nome: "Red Bull (pequeno)", quantidade: 0 },
+      { nome: "Red Bull (grande)", quantidade: 0 },
+      { nome: "Monster Louco (pequeno)", quantidade: 0 },
+      { nome: "Monster Louco (grande)", quantidade: 0 },
+      { nome: "Monster Preto (pequeno)", quantidade: 0 },
+      { nome: "Monster Preto (grande)", quantidade: 0 },
+      { nome: "Monster Branco (grande)", quantidade: 0 },
     ],
   },
   {
