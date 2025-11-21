@@ -58,7 +58,6 @@ export const estoqueData: Categoria[] = [
       { nome: "Fanta Uva", quantidade: 0 },
       { nome: "Fanta Uva Zero", quantidade: 0 },
       { nome: "Fanta Maracujá", quantidade: 0 },
-      { nome: "Fanta Guaraná", quantidade: 0 },
       { nome: "Pepsi", quantidade: 0 },
       { nome: "Pepsi Black", quantidade: 0 },
       { nome: "Pepsi Twist", quantidade: 0 },
@@ -66,8 +65,6 @@ export const estoqueData: Categoria[] = [
       { nome: "Sprite", quantidade: 0 },
       { nome: "Sprite Zero", quantidade: 0 },
       { nome: "Schweppes Citrus", quantidade: 0 },
-      { nome: "Itubaína", quantidade: 0 },
-      { nome: "Kuat", quantidade: 0 },
     ],
   },
 
@@ -105,6 +102,8 @@ export const estoqueData: Categoria[] = [
     bebidas: [
       { nome: "Água Mineral", quantidade: 0 },
       { nome: "Água Mineral Com Gás", quantidade: 0 },
+      { nome: "Água Tônica", quantidade: 0 },
+      { nome: "Água Tônica Zero", quantidade: 0 },
     ],
   },
   {
@@ -118,10 +117,10 @@ export const estoqueData: Categoria[] = [
   {
     categoria: "Suco Del Valle Lata",
     bebidas: [
-      {nome: "Uva", quantidade: 0},
-      {nome: "Goiaba", quantidade: 0},
-      {nome: "Manga", quantidade: 0},
-    ]
+      { nome: "Uva", quantidade: 0 },
+      { nome: "Goiaba", quantidade: 0 },
+      { nome: "Manga", quantidade: 0 },
+    ],
   },
   {
     categoria: "Chás Gelados",
@@ -158,23 +157,22 @@ export const estoqueData: Categoria[] = [
       { nome: "Amstel", quantidade: 0 },
       { nome: "Heineken", quantidade: 0 },
       { nome: "Original", quantidade: 0 },
-      { nome: "Eisenbahn", quantidade: 0 },
     ],
   },
   {
     categoria: "Cervejas Long Neck",
-    bebidas: [{ nome: "Heineken", quantidade: 0 }],
+    bebidas: [
+      { nome: "Heineken", quantidade: 0 },
+      { nome: "Heineken Zero Álcool", quantidade: 0 },
+    ],
   },
   {
     categoria: "Cervejas Latas 350ml",
     bebidas: [
       { nome: "Skol", quantidade: 0 },
       { nome: "Original", quantidade: 0 },
-      { nome: "Eisenbahn", quantidade: 0 },
       { nome: "Heineken", quantidade: 0 },
       { nome: "Heineken Zero Álcool", quantidade: 0 },
-      { nome: "Amstel", quantidade: 0 },
-      { nome: "Budweiser", quantidade: 0 },
     ],
   },
 ];

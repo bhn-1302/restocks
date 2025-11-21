@@ -1,21 +1,46 @@
 @import "tailwindcss";
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 @theme {
-  --font-sans: 'Inter', sans-serif;
-  --color-primary: #2563eb;
-  --color-secondary: #f97316;
-  --color-bg: #f8fafc;
-  --color-text: #1e293b;
+  --font-sans: "Poppins", sans-serif;
+  --color-primary: #5b21b6;
+  --color-secondary: #10b981;
+  --color-bg: #f3f4f6;
+  --color-text: #1f2937;
+}
+
+.dark {
+  --color-bg: #1f2937; /* Fundo principal escuro */
+  --color-text: #f3f4f6; /* Texto claro */
+  --color-primary: #8b5cf6; /* Indigo mais claro para contraste */
+  --color-secondary: #34d399; /* Verde mais claro para contraste */
+}
+
+/* Ajustes para elementos brancos no modo escuro */
+.dark .bg-white {
+  background-color: #374151; /* Fundo de card escuro */
+  color: var(--color-text);
+}
+
+/* Ajustes para elementos com a cor de fundo do app no modo escuro */
+.dark .bg-\[\--color-bg\] {
+  background-color: #4b5563; /* Fundo de item de bebida escuro */
+}
+
+/* Ajustes de input no modo escuro */
+.dark input {
+  background-color: #1f2937;
+  border-color: #4b5563;
+  color: var(--color-text);
 }
 
 html {
-    font-size: 16px;
-    scroll-behavior: smooth;
+  font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body {
-    -webkit-tap-highlight-color: transparent;
-    touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
 }
